@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding:0;
+   
+}
+
+.container{
+    width: 1150px;
+    margin: auto;
+}
+
+/* header */
+
+
+.header{
+    width: 100%;
+    height: 350px;
+    background: -webkit-linear-gradient(right,#a2F,#fff);
+   
+}
+
+.header .heading{
+    width:49%;
+    float: left;
+     margin-top: 100px;
+    border-right: 1px solid #ddd;
+    
+}
+
+.header .heading h2{
+    width:80%;
+    font-family: tahoma;
+    color: #888;
+    font-size: 26px;
+    line-height: 1.5;
+    
+}
+
+.header .heading span:hover{
+    color: #00bc8a;
+    cursor: pointer;
+}
+
+.header .lorem{
+    width:45%;
+     float: left;
+    margin-left: 4%;
+      margin-top: 90px;
+}
+
+
+.header .lorem p{
+    width:80%;
+    color: #eee;
+    line-height: 1.4;
+    font-size: 18px;
+    font-family: tahoma;
+    font-weight: bold:
+}
+
+.header .lorem button{
+    border:0;
+    width: 200px;
+    
+    color:#fff;
+     background: #00bc8a;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+
+
+/* magna */
+
+.magna{
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 50px;
+}
+
+
+.magna .learn{
+    width:49%;
+     float: left;
+    border-right: 2px solid #ddd;
+    margin-top: 30px;
+}
+.magna .learn h2{
+    font-size: 25px;
+    font-family: tahoma;
+    color:#777;
+    text-decoration: underline;
+    
+}
+
+.magna .learn p{
+       font-family: tahoma;
+    line-height: 1.5;
+     color:#888;
+}
+
+.magna .learn button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border:1px solid #ddd;
+    border-radius: 50px;
+    width:200px;
+    color: #777;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.magna .learn button:hover{
+     background: #ddd;
+    color: #555;
+}
+
+
+.magna .ipsum{
+      width:45%;
+       float: left;
+     margin-left: 4%;
+     margin-left: 2%;
+    margin-top: 5px;
+    visibility: hidden;
+   
+}
+
+.magna .ipsum p{
+    line-height: 2;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #777;
+}
+
+.magna .ipsum i{
+    padding-right: 25px;
+     color: #00bc8a;
+}  
+
+
+
+/*content */
+
+.content{
+    width: 100%;
+    height: auto;
+    background: #eee;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.content .container .part1{
+   margin-bottom: 10px;
+}
+
+.content .container .part1 img{
+    float: left;
+    width: 45%;
+     padding-right:20px;
+    margin-bottom: 30px;
+}
+
+.content .container .part1 .head{
+     float: left;
+     width: 40%;
+    padding-left: 50px;
+     padding-top: 50px;
+}
+
+.content .container .part1 .head h2{
+    font-size: 20px;
+    font-family: tahoma;
+    color: #777;
+    padding: 20px;
+    text-decoration: underline;
+    
+}
+
+
+.content .container .part1 .head p{
+     font-size: 15px;
+    font-family: tahoma;
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+.content .container .part1 .head button{
+    
+    border: 0;
+    outline: 0;
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius: 50px;
+    width:200px;
+    color: #777;
+    font-size: 15px;
+    padding: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content .container .part1 .head button:hover{
+     background: #aaa;
+     color: #eee;
+}
+.clear{
+    clear: both;
+}
+
+/* form */
+
+
+.form{
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 50px;
+    overflow: hidden;
+   
+}
+
+
+.form .inputs{
+    width:49%;
+     float: left;
+    border-right: 2px solid #ddd;
+    margin-top: 30px;
+}
+.form .inputs h2{
+    font-size: 25px;
+    font-family: tahoma;
+    color:#777;
+    text-decoration: underline;
+    
+}
+
+.form .inputs p{
+       font-family: tahoma;
+    line-height: 1.5;
+     color:#888;
+}
+
+
+.form .inputs input[type=text]{
+    width: 220px;
+    padding: 10px;
+   
+}
+
+.form .inputs textarea{
+    width: 485px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+
+
+.form .inputs input[type=submit]{
+  
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border:1px solid #ddd;
+    border-radius: 50px;
+    width:180px;
+    color: #777;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.form .inputs input[type=submit]:hover{
+    background: #ddd;
+    color: #555;
+}
+
+
+.form .links{
+      width:45%;
+       float: left;
+     margin-left: 5%;
+    margin-top: 30px;
+    
+   
+}
+
+.form .links p{
+    line-height: 2;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #777;
+}
+
+.form .links i{
+    padding-right: 25px;
+     color: #00bc8a;
+}  
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid #ddd;
+}
+
+.footer p{
+    text-align: center;
+    color: #555;
+   line-height: 150px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.
